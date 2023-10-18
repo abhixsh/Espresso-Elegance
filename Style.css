@@ -1,0 +1,58 @@
+<style>
+    body {
+        background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+        font-family: 'Apple SD Gothic Neo', Arial, sans-serif;
+        text-align: center;
+    }
+        header {
+            background-color: #000; /* Apple's header background color */
+            color: #fff; /* White text for contrast */
+            padding: 20px;
+        }
+        nav {
+            background-color: #111; /* Darker background for the navigation bar */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .coffee-image {
+            width: 100%;
+            max-width: 300px;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #000;
+            color: #fff;
+        }
+        .animation {
+            animation: move 2s infinite;
+        }
+        @keyframes move {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(20px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+    </style>
